@@ -18,7 +18,8 @@ I made these modifications in optimizing this algo for long input sequences:
 
 
 Input Requirements:
-  - Inpute messages need to be generated so that we have 1:1 mapping. For example, let a -> c, c -> b, b -> m such that no letter (including space)
+  - Input messages must be generated to ensure a one-to-one (1:1) mapping between characters. Each character, including spaces, must map to only one unique character and cannot have multiple mappings.
+  - For example, let a -> c, c -> b, b -> m such that no letter (including space)
      maps to more than one letter.
 
 Fine Tuning:
