@@ -42,10 +42,10 @@ Instructions and examples for using the project:
 bash
 # How to run the project
 python CryptographyMH.py
+### When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
 
-## When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
 
-Methods
+# Methods
 __init__(self, input_message, alphabet)
 Initializes the Crypt3 class with the input message and alphabet.
 
