@@ -41,7 +41,8 @@ pip install -r requirements.txt
 
 # How to run the project
 python CryptographyMH.py
-### When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
+
+#When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
 
 
 # Methods
