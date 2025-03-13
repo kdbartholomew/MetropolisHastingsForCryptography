@@ -30,7 +30,7 @@ ________________________________________________________________________________
 Installation
 Step-by-step guide to get the project up and running:
 
-bash
+
 # Clone the repository
 git clone https://github.com/your-username/cryptography-mh.git
 
@@ -39,7 +39,6 @@ cd cryptography-mh
 
 pip install -r requirements.txt
 
-bash
 # How to run the project
 python CryptographyMH.py
 ### When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
