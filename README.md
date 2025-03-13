@@ -1,6 +1,6 @@
 # Metropolis Hastings (Optimized to Converge for Large Input)
 
-This project contains my novel optimatzation of the Metropolis Hastings algorithm for decoding messages. 
+This project contains my novel optimization of the Metropolis Hastings algorithm for decoding messages. 
 The CryptographyMH algorithm uses a coding function to propose random swaps in the mapping of letters.
 The algorithm iteratively considers changes to the coding function and accepts them based on an acceptance function's evaluation of the 
 partial score of the coding function. If the partial score is above a liklihood threshold, make the proposed change to the coding function. 
