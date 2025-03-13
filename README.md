@@ -37,8 +37,6 @@ git clone https://github.com/your-username/cryptography-mh.git
 # Install dependencies
 cd cryptography-mh
 pip install -r requirements.txt
-Usage
-Instructions and examples for using the project:
 
 bash
 # How to run the project
