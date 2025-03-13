@@ -1,4 +1,4 @@
-# Metropolis Hastings (Optimized to Converge for Large Input)
+# Metropolis Hastings (Optimized to Converge for Long Input Sequences)
 
 This project contains my novel optimization of the Metropolis Hastings algorithm for decoding messages. 
 The CryptographyMH algorithm uses a coding function to propose random swaps in the mapping of letters.
