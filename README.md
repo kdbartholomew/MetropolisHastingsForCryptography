@@ -4,7 +4,7 @@ This project contains my novel optimization of the Metropolis Hastings algorithm
 The CryptographyMH algorithm uses a coding function to propose random swaps in the mapping of letters.
 The algorithm iteratively considers changes to the coding function and accepts them based on an acceptance function's evaluation of the 
 partial score of the coding function. If the partial score is above a liklihood threshold, make the proposed change to the coding function. 
-Else, flip a weighted coin with the probability of the unlikely change and make the proposed change if the coin flips in favour of the unlikely event.
+Else, flip a weighted coin with the probability of the unlikely change and make the proposed change if the coin flips in favor of the unlikely event.
 
 I think it's important to note that occainanally doing the improbable thing is what makes this algo converge. 
 
