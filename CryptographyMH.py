@@ -7,7 +7,7 @@ class CryptographyMH:
 
     def __init__(self, input_message, alphabet):
         """
-        Initializes the Crypt3 class with the input message and alphabet.
+        Initializes the CryptographyMH class with the input message and alphabet.
         
         Args:
             input_message (str): The message to be encoded or decoded.
@@ -82,6 +82,7 @@ class CryptographyMH:
     def partial_score(self, coding_function):
         """
         Computes the partial score of the coding function based on change points.
+        Uses a log scale to sum the values and then exponentiates back before returning.
         
         Args:
             coding_function (dict): The coding function to be evaluated.
@@ -120,9 +121,9 @@ class CryptographyMH:
 
 def main():
     """
-    Main function to run the Crypt3 encoding/decoding process.
+    Main function to run the CryptographyMH encoding/decoding process.
     Prompts the user for an input message or uses a default message from 'test_input.txt'.
-    Iteratively applies the Crypt3 algorithm and checks for convergence.
+    Iteratively applies the CryptographyMH algorithm and checks for convergence.
     """
     user_choice = input("Enter your own message or type 'default' to use the message from 'test_input.txt': ").strip().lower()
 
