@@ -1,4 +1,4 @@
-Metropolis Hastings (Optimized to Converge for Large Input)
+# Metropolis Hastings (Optimized to Converge for Large Input)
 
 This project contains my novel optimatzation of the Metropolis Hastings algorithm for decoding messages. 
 The CryptographyMH algorithm uses a coding function to propose random swaps in the mapping of letters.
@@ -43,7 +43,7 @@ bash
 # How to run the project
 python CryptographyMH.py
 
-# When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
+## When prompted, type 'default' for the test case long message. Else, enter a novel input message such that it satisfies the above requirements.
 
 Methods
 __init__(self, input_message, alphabet)
