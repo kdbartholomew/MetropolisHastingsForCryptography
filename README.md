@@ -8,7 +8,7 @@ Else, flip a weighted coin with the probability of the unlikely change and make 
 
 I think it's important to note that occainanally doing the improbable thing is what makes this algo converge. 
 
-Tranditionally this algo doesnt converge for large input because we consider score (calculated in the acceptance function) as a product or probabilities. As our 
+Tranditionally this algo doesnt converge for large input because we consider score (calculated in the acceptance function) as a product of probabilities. As our 
 input message gets longer so does this product of probabilities and we face float underflow errors very quickly.
 
 I made these modifications in optimizing this algo for long input sequences:
