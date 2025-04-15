@@ -12,8 +12,8 @@ Tranditionally this algo doesnt converge for large input because we consider sco
 input message gets longer so does this product of probabilities and we face float underflow errors very quickly.
 
 I made these modifications in optimizing this algo for long input sequences:
- - I log scaled (natural log) so we consider a log sum instead of a product (and I exponentiate back before returning).
- - I only consider change points when evaluating the score. That is to say, we only conisder the log sum of the values affected by the most
+ - I log scaled (natural log) to consider a log sum instead of a product (and I exponentiate back before returning).
+ - I only consider change points when evaluating the score. That is to say, I only conisder the log sum of the values affected by the most
    recent proposed change.
 
 
