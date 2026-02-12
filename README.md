@@ -34,7 +34,7 @@ Metropolis–Hastings is a Markov Chain Monte Carlo algorithm used to sample fro
 
 # Fine Tuning
   - User might need to increase the early stopping criteria or max iterations for exceedingly long inputs.
-  - 
+    
 ---
 
 ## Installation
